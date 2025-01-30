@@ -1,0 +1,2 @@
+Neil = [z for z in range(2000,3200) if z % 7 ==0 and z % 5 !=0 ]
+print(Neil)
