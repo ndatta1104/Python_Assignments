@@ -1,0 +1,17 @@
+import random
+
+# Possible answers
+answers = [
+    "Yes, definitely.",
+    "No way!",
+    "Maybe...",
+    "Ask again later.",
+    "I don't know.",
+    "Absolutely!",
+    "Not sure.",
+]
+
+question = input("Ask me a yes/no question: ")
+
+response = random.choice(answers)
+print("Magic 8-Ball says:", response)
