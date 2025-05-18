@@ -1,0 +1,9 @@
+import random
+
+# Ask the user for a range
+lower = int(input("Enter the lower limit: "))
+upper = int(input("Enter the upper limit: "))
+
+# Generate and print a random number
+random_number = random.randint(lower, upper)
+print(f"The random number between {lower} and {upper} is {random_number}.")
