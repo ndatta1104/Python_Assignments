@@ -1,0 +1,13 @@
+# Simple addition calculator
+num1 = input("Enter the first number: ")
+num2 = input("Enter the second number: ")
+
+# Convert inputs to numbers
+num1 = float(num1)
+num2 = float(num2)
+
+# Add the numbers
+result = num1 + num2
+
+# Print the result
+print("The sum is:", result)
