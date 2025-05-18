@@ -1,0 +1,11 @@
+# Ask for age
+age = input("Enter your age in years: ")
+
+
+age = int(age)
+
+# Approximate days
+days = age * 365
+
+
+print("You are approximately", days, "days old.")
